@@ -23,6 +23,14 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "sdf",
+      "name": "sdfsd",
+      "price": "54.5878",
+      "description": "sdfdsf",
+      "available": true,
+      "id": 4
     }
   ]
 }

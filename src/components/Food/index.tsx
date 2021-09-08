@@ -4,6 +4,8 @@ import { Container } from "./styles";
 import api from "../../services/api";
 import { useState } from "react";
 
+import { formatPrice } from "../../util/format";
+
 interface FoodProps {
   food: {
     id: number;
@@ -18,8 +20,7 @@ interface FoodProps {
 }
 
 export function Food({ food, handleDelete, handleEditFood }: FoodProps) {
-  const available = food.available;
-  const [isAvailable, setIsAvailable] = useState(true);
+  const [isAvailable, setIsAvailable] = useState(food.available);
 
   async function toggleAvailable() {
     await api.put(`/foods/${food.id}`, {
@@ -43,7 +44,7 @@ export function Food({ food, handleDelete, handleEditFood }: FoodProps) {
         <h2>{food.name}</h2>
         <p>{food.description}</p>
         <p className="price">
-          R$ <b>{food.price}</b>
+          R$ <b>{formatPrice(food.price)}</b>
         </p>
       </section>
       <section className="footer">
