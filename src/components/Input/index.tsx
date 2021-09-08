@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, ReactNode } from "react";
 
 import { useField } from "@unform/core";
 
@@ -8,6 +8,7 @@ import { IconType } from "react-icons/lib";
 interface InputProps {
   name: string;
   icon: IconType;
+  rest: ReactNode;
 }
 
 export function Input({ name, icon: Icon, ...rest }: InputProps) {
