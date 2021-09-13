@@ -33,12 +33,20 @@
       "id": 4
     },
     {
-      "image": "adasd",
-      "name": "Prato muito bom",
-      "price": "800",
-      "description": "asdasd",
+      "image": "adasdasd",
+      "name": "Prato muito delicioso",
+      "price": "8007",
+      "description": "asdee",
       "available": true,
       "id": 5
+    },
+    {
+      "image": "trgdfgdfg",
+      "name": "Criei um prato",
+      "price": "878",
+      "description": "aasdw",
+      "available": true,
+      "id": 6
     }
   ]
 }

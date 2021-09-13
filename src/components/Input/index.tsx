@@ -7,11 +7,12 @@ import { IconType } from "react-icons/lib";
 
 interface InputProps {
   name: string;
-  icon: IconType;
-  rest: ReactNode;
+  Icon?: IconType;
+  rest?: ReactNode;
+  placeholder: string;
 }
 
-export function Input({ name, icon: Icon, ...rest }: InputProps) {
+export function Input({ name, Icon: Icon, ...rest }: InputProps) {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const [isFocused, setIsFocused] = useState(false);
