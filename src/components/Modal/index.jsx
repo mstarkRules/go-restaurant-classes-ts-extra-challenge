@@ -6,6 +6,7 @@ class Modal extends Component {
     super(props);
 
     const { isOpen } = this.props;
+    //console.log("propriedades: ", this.props);
     this.state = {
       modalStatus: isOpen,
     };
@@ -13,9 +14,10 @@ class Modal extends Component {
 
   componentDidUpdate(prevProps) {
     const { isOpen } = this.props;
-
+    // console.log("props: ", this.props);
+    console.log("prevprops: ", prevProps);
+    console.log("isopen: ", isOpen);
     if (prevProps.isOpen !== isOpen) {
-      console.log(this.props);
       this.setState({ modalStatus: isOpen });
     }
   }

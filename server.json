@@ -25,12 +25,20 @@
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
     },
     {
-      "image": "",
+      "image": "https://pbs.twimg.com/profile_images/1434586661501952008/NkjeNYJg_400x400.jpg",
       "name": "Vic",
-      "price": "788",
-      "description": "Morena muitoo gostosaaa",
+      "price": "7884",
+      "description": "Morena ❤",
       "available": true,
       "id": 4
+    },
+    {
+      "image": "adasd",
+      "name": "Prato muito bom",
+      "price": "800",
+      "description": "asdasd",
+      "available": true,
+      "id": 5
     }
   ]
 }
