@@ -28,7 +28,7 @@
       "image": "https://pbs.twimg.com/profile_images/1434586661501952008/NkjeNYJg_400x400.jpg",
       "name": "Vic a",
       "price": "7884",
-      "description": "Morena ❤",
+      "description": "Uma verdadeira obra de arte",
       "available": true,
       "id": 4
     },
@@ -39,14 +39,6 @@
       "description": "prato teste",
       "available": true,
       "id": 5
-    },
-    {
-      "image": "trgdfgdfg",
-      "name": "Criei um prato muito bom",
-      "price": "878",
-      "description": "aasdw",
-      "available": true,
-      "id": 6
     }
   ]
 }
