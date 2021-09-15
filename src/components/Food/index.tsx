@@ -7,16 +7,18 @@ import { useState } from "react";
 import { formatPrice } from "../../util/format";
 
 interface FoodProps {
-  food: {
-    id: number;
-    name: string;
-    description: string;
-    price: number;
-    available: boolean;
-    image: string;
-  };
+  food: FoodData;
   handleDelete: (id: number) => void;
-  handleEditFood: (food: object) => void;
+  handleEditFood: (food: FoodData) => void;
+}
+
+interface FoodData {
+  id: number;
+  name: string;
+  description: string;
+  price: number;
+  available: boolean;
+  image: string;
 }
 
 export function Food({ food, handleDelete, handleEditFood }: FoodProps) {
@@ -31,7 +33,7 @@ export function Food({ food, handleDelete, handleEditFood }: FoodProps) {
     setIsAvailable(!isAvailable);
   }
 
-  function setEditingFood(food: object) {
+  function setEditingFood(food: FoodData) {
     handleEditFood(food);
   }
 
