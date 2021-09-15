@@ -16,14 +16,7 @@ interface FoodData {
   image: string;
 }
 
-interface EditingFoodData {
-  id: number;
-  name: string;
-  description: string;
-  price: number;
-  available: boolean;
-  image: string;
-}
+interface EditingFoodData extends FoodData {}
 
 export function Dashboard() {
   const [foods, setFoods] = useState<FoodData[]>([]);
