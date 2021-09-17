@@ -39,6 +39,14 @@
       "description": "Olha isso cara",
       "available": true,
       "id": 6
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFhmV4lJRD_E5OSdu_2YALd5-UA0B_K27c0A&usqp=CAU",
+      "name": "Prato top com um vinhozinho só o filé",
+      "price": "400",
+      "description": "Cê vai se amarrar",
+      "available": true,
+      "id": 7
     }
   ]
 }
