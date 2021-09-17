@@ -9,7 +9,7 @@
 <h2>🔗 Descrição</h2>
 <p align=>Aplicação web que renderiza uma lista de pratos de um restaurante, e permite adicionar novos pratos </p>
 <p>É possível editar e deletar pratos existentes também.</p>
-<p>O intuito maior desse projeto era fazer a migração de classes components para [function components](https://blog.rocketseat.com.br/react-hooks/) e também de Javascript para [Typescript](https://blog.rocketseat.com.br/typescript-vantagens-mitos-conceitos/)</p>
+<p>O intuito maior desse projeto era fazer a migração de classes components para <a href="https://blog.rocketseat.com.br/react-hooks/">function components</a> e também de Javascript para <a href="https://blog.rocketseat.com.br/typescript-vantagens-mitos-conceitos/">Typescript</a></p>
 
 <h2>✨ Layout do projeto</h2>
 <p align="center" >
